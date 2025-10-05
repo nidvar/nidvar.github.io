@@ -8,8 +8,15 @@ body {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    background: #f9f9f9;
-    color: #333;
+    background: #e9dc41;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
 }
 
 .bold {
@@ -24,7 +31,20 @@ body {
     padding: 0 20px;
 }
 
+.footer {
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     text-align: center;
     margin: 2rem;
 }
@@ -40,9 +60,14 @@ section {
     max-width: 800px;
     margin: auto;
     padding: 2rem;
-    border-radius: 8px;
+    border-top: 3px solid black;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     font-size: 1.25rem;
+    background-color: #fff248;
+}
+
+section:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
 
 a {
