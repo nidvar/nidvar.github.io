@@ -8,10 +8,14 @@ body {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    background: #e9dc41;
+    background: #f4f3f1;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    margin: 10px;
 }
 
 main {
@@ -60,13 +64,14 @@ section {
     width: 100%;
     margin: auto;
     padding: 1rem;
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-color: #fff248;
+    background-color: #faf7ef;
+    transition: box-shadow 0.3s ease;
 }
 
 section:hover {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.9);
 }
 
 a {
