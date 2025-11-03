@@ -8,14 +8,16 @@ body {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    background: #f4f3f1;
+    background: linear-gradient(135deg, #f3f4f6, #e3e9ef);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-h1 {
-    margin: 10px;
+header h1 {
+  font-size: 2.5rem;
+  color: #0a2540;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 main {
@@ -64,9 +66,9 @@ section {
     width: 100%;
     margin: auto;
     padding: 1rem;
-    border-top: 2px solid black;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-color: #faf7ef;
+    border-top: 3px solid #0a2540;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    background-color: #ffffff;
     transition: box-shadow 0.3s ease;
 }
 
