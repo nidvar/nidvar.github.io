@@ -95,6 +95,10 @@ section:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.9);
 }
 
+.description {
+    font-size: 14px;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 1000px;

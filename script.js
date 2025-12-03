@@ -2,13 +2,13 @@ const projects = [
     {
         title: "Reddit clone",
         link: "https://jmern.vercel.app/",
-        description: "Login, password authentication and database",
+        description: "Login, authentication and database. Create and update blog posts, images and comment on other people's posts",
         tech: "React - TypeScript - Node - MongoDB"
     },
     {
         title: "Whatsapp clone",
         link: "https://jarrochat.vercel.app/",
-        description: "Login, password authentication and database",
+        description: "Login, authentication and database. Real time chat with websockets",
         tech: "React - TypeScript - Node - MongoDB"
     },
 ];
@@ -23,7 +23,7 @@ projects.forEach(project => {
         <p class="heading light-blue">
         ${project.title}
         </p>
-        <p>${project.description}</p>
+        <p class='description'>${project.description}</p>
         <p><span class="bold smaller">${project.tech}</span></p>
     </a>
   `;
