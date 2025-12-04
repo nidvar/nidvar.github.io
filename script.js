@@ -7,7 +7,7 @@ const projects = [
     },
     {
         title: "Whatsapp clone",
-        link: "https://jarrochat.vercel.app/",
+        link: "https://jarro-chat.onrender.com/",
         description: "Login, authentication and database. Real time chat with websockets",
         tech: "React - TypeScript - Node - MongoDB"
     },
