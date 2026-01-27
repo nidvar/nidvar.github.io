@@ -2,19 +2,19 @@ const projects = [
     {
         title: "Netflix clone",
         link: "https://jarro-netflix.onrender.com/",
-        description: "Login, authentication and database. Simple Netflix clone",
+        description: "Full stack. Simple Netflix clone",
         tech: "React - TypeScript - Node - PostgreSQL"
     },
     {
         title: "Reddit clone",
         link: "https://jmern.vercel.app/",
-        description: "Login, authentication and database. Create and update blog posts, images and comment on other people's posts",
+        description: "Full stack. Create, update, comment on posts",
         tech: "React - TypeScript - Node - MongoDB"
     },
     {
         title: "Whatsapp clone",
         link: "https://jarro-chat.onrender.com/",
-        description: "Login, authentication and database. Real time chat with websockets",
+        description: "Full stack. Real time chat with websockets",
         tech: "React - TypeScript - Node - MongoDB"
     },
 ];
