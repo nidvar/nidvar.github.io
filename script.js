@@ -1,5 +1,11 @@
 const projects = [
     {
+        title: "Netflix clone",
+        link: "https://jarro-netflix.onrender.com/",
+        description: "Login, authentication and database. Simple Netflix clone",
+        tech: "React - TypeScript - Node - PostgreSQL"
+    },
+    {
         title: "Reddit clone",
         link: "https://jmern.vercel.app/",
         description: "Login, authentication and database. Create and update blog posts, images and comment on other people's posts",
