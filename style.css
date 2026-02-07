@@ -107,6 +107,22 @@ section:hover {
   margin: auto;
 }
 
+.black {
+  color: black;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.box {
+  display: flex;
+}
+
+img {
+  margin: 0 10px 0 0;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1000px;

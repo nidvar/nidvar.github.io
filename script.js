@@ -1,21 +1,21 @@
 const projects = [
   {
-    title: "Netflix clone",
+    title: "Netflix clone <span class='black'>(Full stack)</span>",
     link: "https://jarro-netflix.onrender.com/",
-    description: "Full stack. Simple Netflix clone",
     tech: "React - TypeScript - Node - PostgreSQL",
+    img: "img/netflix.png",
   },
   {
-    title: "Reddit clone",
+    title: "Reddit clone <span class='black'>(Full stack)</span>",
     link: "https://jmern.vercel.app/",
-    description: "Full stack. Create, update, comment on posts",
     tech: "React - TypeScript - Node - MongoDB",
+    img: "img/reddit.png",
   },
   {
-    title: "Whatsapp clone",
+    title: "Whatsapp clone <span class='black'>(Full stack)</span>",
     link: "https://jarro-chat.onrender.com/",
-    description: "Full stack. Real time chat with websockets",
     tech: "React - TypeScript - Node - MongoDB",
+    img: "img/whatsapp.png",
   },
 ];
 
@@ -26,11 +26,15 @@ projects.forEach((project) => {
 
   section.innerHTML = `
     <a href="${project.link}" target="_blank">
-        <p class="heading light-blue">
-        ${project.title}
-        </p>
-        <p class='description'>${project.description}</p>
-        <p><span class="bold smaller">${project.tech}</span></p>
+      <div class="box">
+        <img src="${project.img}" class="logo"/>
+        <div>
+          <p class="heading light-blue">
+          ${project.title}
+          </p>
+          <p><span class="bold smaller">${project.tech}</span></p>
+        </div>
+      </div>
     </a>
   `;
 
