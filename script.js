@@ -7,7 +7,7 @@ const projects = [
   },
   {
     title: "Reddit clone <span class='black'>(Full stack)</span>",
-    link: "https://jmern.vercel.app/",
+    link: "https://jarro-reddit.onrender.com/",
     tech: "React - TypeScript - Node - MongoDB",
     img: "img/reddit.png",
   },
