@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "LinkedIn clone <span class='black'>(Full stack)</span>",
+    link: "https://jarro-linkedin.onrender.com/",
+    tech: "React - TypeScript - Node - MongoDB",
+    img: "img/linkedin.png",
+  },
+  {
     title: "Netflix clone <span class='black'>(Full stack)</span>",
     link: "https://jarro-netflix.onrender.com/",
     tech: "React - TypeScript - Node - PostgreSQL",
